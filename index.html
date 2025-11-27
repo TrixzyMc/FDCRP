@@ -3,21 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FDCRP</title>
-  <!-- Tailwind CSS via CDN (for simple setup) -->
+  <title>FDCRP Roleplay Server</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body class="bg-gray-100 text-gray-900">
-  <div class="min-h-screen flex items-center justify-center">
-    <div class="bg-white rounded-xl p-8 shadow max-w-md w-full">
-      <h1 class="text-3xl font-bold mb-4 text-center">Welcome to FDCRP!</h1>
-      <p class="mb-6 text-center">Your website powered by HTML, TailwindCSS, and JavaScript.</p>
-      <button 
-        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition"
-        onclick="alert('Button Clicked!')"
-      >
-        Get Started
-      </button>
+  <div class="min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl p-10 shadow-xl max-w-lg w-full">
+      <h1 class="text-4xl font-bold mb-4 text-center">FDCRP Roleplay</h1>
+      <p class="mb-8 text-center text-lg">A professional and immersive roleplay community.</p>
+
+      <div class="space-y-4">
+        <!-- Discord Button -->
+        <a href="#" class="w-full block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-4 rounded-lg text-center transition flex items-center justify-center gap-2">
+          <i class="fa-brands fa-discord text-xl"></i>
+          Join Discord
+        </a>
+
+        <!-- YouTube Button -->
+        <a href="#" class="w-full block bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-4 rounded-lg text-center transition flex items-center justify-center gap-2">
+          <i class="fa-brands fa-youtube text-xl"></i>
+          View YouTube
+        </a>
+
+        <!-- TikTok Button -->
+        <a href="#" class="w-full block bg-black hover:bg-gray-800 text-white font-semibold py-3 px-4 rounded-lg text-center transition flex items-center justify-center gap-2">
+          <i class="fa-brands fa-tiktok text-xl"></i>
+          View TikTok
+        </a>
+
+        <!-- Leadership Teams Button -->
+        <a href="#" class="w-full block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-4 rounded-lg text-center transition flex items-center justify-center gap-2">
+          <i class="fa-solid fa-users-gear text-xl"></i>
+          Leadership Teams
+        </a>
+
+        <!-- Applications Dropdown -->
+        <div class="bg-gray-200 rounded-lg p-4">
+          <h2 class="text-lg font-semibold mb-3 text-center">Applications</h2>
+          <div class="space-y-3">
+            <a href="#" class="block w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded text-center transition">Staff Application</a>
+            <a href="#" class="block w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 rounded text-center transition">Media Application</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
